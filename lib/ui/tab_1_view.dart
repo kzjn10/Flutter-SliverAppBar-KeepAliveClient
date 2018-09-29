@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Tab1View extends StatelessWidget {
+class Tab1View extends StatefulWidget {
+  @override
+  State createState() => new Tab1ViewState();
+}
+
+class Tab1ViewState extends State<Tab1View> with AutomaticKeepAliveClientMixin<Tab1View>{
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -17,4 +22,8 @@ class Tab1View extends StatelessWidget {
       ),
     );
   }
+
+  // TODO: implement wantKeepAlive
+  @override
+  bool get wantKeepAlive => true;
 }
