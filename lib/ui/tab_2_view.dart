@@ -47,7 +47,7 @@ class Tab2ViewState extends State<Tab2View> with AutomaticKeepAliveClientMixin<T
                   width: width,
                   height: height,
                   child: Image.network(
-                    "https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&h=350",
+                    "https://i.pinimg.com/564x/b1/82/97/b182971dfd1fbea8f4142735b0435024.jpg",
                     fit: BoxFit.cover,
                   ),
                 ),

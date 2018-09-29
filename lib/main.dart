@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Flutter Demo',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.orange,
       ),
       home: new MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> with AutomaticKeepAliveClientMi
                           fontSize: 16.0,
                         )),
                     background: Image.network(
-                      "https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&h=350",
+                      "https://i.pinimg.com/564x/15/68/74/15687422736584f42e9e4962594c7a2c.jpg",
                       fit: BoxFit.cover,
                     )),
               ),
@@ -70,11 +70,15 @@ class _MyHomePageState extends State<MyHomePage> with AutomaticKeepAliveClientMi
               ),
             ];
           },
-          body: new TabBarView(children: <Widget>[
-           new Tab1View(),
-           new Tab2View(),
+          body: new Container(
+            padding: new EdgeInsets.all(10.0),
+            child:  new TabBarView(children: <Widget>[
+              new Tab1View(),
+              new Tab2View(),
 
-          ])
+            ])
+          )
+
         ),
       ),
     );
