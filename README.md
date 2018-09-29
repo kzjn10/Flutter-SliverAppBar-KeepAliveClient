@@ -1,8 +1,6 @@
-# flutter_app
+# Flutter SilverAppBar SrollTabBar Keep Alive Client
 
-A new Flutter application.
+Demo using SilverApp + ScrollTabView + KeepAlive Client
 
-## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+
