@@ -2,7 +2,7 @@
 
 Demo using SilverApp + ScrollTabView + KeepAlive Client
 
-![Video](https://www.youtube.com/watch?v=UPxZ0kGIJaI&feature=youtu.be)
+[![Alt text](https://github.com/kzjn10/Flutter-SilverAppBar-KeepAliveClient/blob/master/assets/ss1.png)](https://www.youtube.com/watch?v=UPxZ0kGIJaI)
 
 
 
